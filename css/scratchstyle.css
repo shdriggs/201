@@ -1,0 +1,100 @@
+.tableaustyle {
+    display: block;
+    margin: auto;
+}
+
+.ramenbody {
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+header {
+    text-decoration: solid;
+}
+
+.common {
+    padding: 5px;
+    position: absolute;
+}
+
+.footer {
+    position: static;
+    background-color: black;
+    border-top: white solid;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.ramenlist {
+    text-align: left; 
+    padding-left: 0;
+}
+
+.ramenlist li {
+    list-style-position: inside; /* Place bullet inside the list item */
+    text-align: left; /* Align text to the left for better readability */
+}
+
+/* Add more specific styling for nested lists */
+.ramenlist ul {
+    padding-left: 20px; /* Adjust the padding for nested lists */
+}
+
+/* Center the content within the iframe */
+iframe {
+    display: block;
+    margin: auto;
+}
+
+
+a[href="#"] {
+    display: block;
+    text-align: float right;
+    margin-top: 20px; 
+}
+
+.ramenbody p {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white; 
+    padding: 20px; 
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px; 
+}
+.top-right-nav {
+    position: absolute;
+    top: 30px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+}
+
+.top-right-nav a {
+    color: #fff; /* Text color for the navigation link */
+    text-decoration: none;
+    padding: 10px;
+    background-color: #333; /* Background color for the navigation link */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.top-right-nav a:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+img:hover {
+    transform: scale(1.1); /* Scale the image on hover for a subtle zoom effect */
+    transition: transform 0.3s ease; /* Add a smooth transition */
+    
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Set a maximum width for the image */
+    float: middle; /* Float the image to the right */
+    z-index: -2;
+}
